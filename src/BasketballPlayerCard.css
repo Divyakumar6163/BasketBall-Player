@@ -1,0 +1,39 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.player-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.player-image {
+    width: 100%;
+    height: auto;
+}
+
+.player-info {
+    padding: 16px;
+}
+
+.player-name {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.player-position {
+    margin: 8px 0;
+    color: #666;
+}
+
+.player-stats p {
+    margin: 4px 0;
+}
